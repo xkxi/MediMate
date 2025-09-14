@@ -6,17 +6,17 @@ import { getFirestore, doc, getDoc, collection, query, where, getDocs, orderBy, 
 // --- Firebase Configuration ---
 // IMPORTANT: Use the same configuration as in Profile.jsx
 const firebaseConfig = {
-  apiKey: "AIzaSyDjQoglD2QKavIP8yt-gopeSSxtPuLztQQ",
-  authDomain: "health-companion-439c4.firebaseapp.com",
-  projectId: "health-companion-439c4",
-  storageBucket: "health-companion-439c4.firebasestorage.app",
-  messagingSenderId: "54687273786",
-  appId: "1:54687273786:web:8d41897ec0ee1413a4b603",
-  measurementId: "G-PFEYTLJXTV"
+  apiKey: "PLACEHOLDER",
+  authDomain: "PLACEHOLDER",
+  projectId: "PLACEHOLDER",
+  storageBucket: "PLACEHOLDER",
+  messagingSenderId: "PLACEHOLDER",
+  appId: "PLACEHOLDER",
+  measurementId: "PLACEHOLDER"
 };
 
 // --- Gemini API Configuration ---
-const GEMINI_API_KEY = "AIzaSyCOYtCr6orRniOm-J-nh68YweeukQN0G1E"; // TODO: Replace with your actual Gemini API Key
+const GEMINI_API_KEY = "PLACEHOLDER"; //REPLACE WITH ACTUAL API KEY
 const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`;
 
 // Initialize Firebase services
@@ -227,3 +227,4 @@ export default function GeminiChat({ onNavigate }) { // Added onNavigate prop
     </div>
   );
 }
+
